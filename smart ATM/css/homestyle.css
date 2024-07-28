@@ -1,0 +1,19 @@
+.animate{
+    width:100%;
+    height:100%;
+    animation:pulse 5s infinite;
+}
+
+@keyframes pulse{
+    0%
+    {
+        background-color: aliceblue;
+    }
+    100%{
+        background-color: gold;
+    }
+}
+
+html,body{
+    height:100%;
+}
